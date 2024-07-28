@@ -1,0 +1,6 @@
+Task Statement
+Create a server using the http module in Node.js that handles the following requests:
+
+POST /todos => Create a new todo with title and status (both required).
+GET /todos => Respond with a JSON array of all todos.
+GET /todos/:id => Respond with an HTML file displaying the title and status of the todo with the specified id, including CSS for styling.
